@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About {{ judul }}</title>
+</head>
+<body>
+    <img style="width:100%" src="{% static "/about/img/banner_about.png"%}" alt="">
+    <h1>{{ judul }}</h1>
+    <h2>{{ kontributor }}</h2>
+    <ul>
+        <li><a href="/" title="">home</a></li>
+        <li><a href="/blog" title="">blog</a></li>
+    </ul>
+</body>
+</html>
